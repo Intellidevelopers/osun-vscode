@@ -1,0 +1,25 @@
+{
+  "scopeName": "source.osun",
+  "patterns": [
+    {
+      "name": "keyword.control.osun",
+      "match": "\\b(let|print|if|else|while|for|return)\\b"
+    },
+    {
+      "name": "string.quoted.double.osun",
+      "match": "\"([^\"\\\\]|\\\\.)*\""
+    },
+    {
+      "name": "variable.other.osun",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    },
+    {
+      "name": "comment.line.double-slash.osun",
+      "match": "//.*$"
+    },
+    {
+      "name": "constant.numeric.osun",
+      "match": "\\b[0-9]+\\b"
+    }
+  ]
+}

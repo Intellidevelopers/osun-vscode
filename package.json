@@ -1,0 +1,48 @@
+{
+  "name": "osun",
+  "displayName": "OSUN Language Support",
+  "description": "Syntax highlighting, theme, and file icon for the OSUN programming language.",
+  "version": "1.0.0",
+  "publisher": "yourname",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Programming Languages", "Themes"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "osun",
+        "aliases": ["OSUN", "osun"],
+        "extensions": [".os"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "osun",
+        "scopeName": "source.osun",
+        "path": "./syntaxes/osun.tmLanguage.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "osun-icons",
+        "label": "OSUN File Icons",
+        "path": "./icons/osun-icon.svg"
+      }
+    ],
+    "themes": [
+      {
+        "label": "OSUN Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/osun-color-theme.json"
+      }
+    ],
+    "repository": {
+  "type": "git",
+  "url": "https://github.com/intellidevelopers/osun-vscode"
+},
+"license": "MIT"
+
+  }
+}
