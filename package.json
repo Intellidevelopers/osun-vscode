@@ -1,9 +1,9 @@
 {
-  "name": "osun",
-  "displayName": "OSUN Language Support",
+  "name": "osun-vscode",
+  "displayName": "OSUN Lang Support for VSCode",
   "description": "Syntax highlighting, theme, and file icon for the OSUN programming language.",
   "version": "1.0.0",
-  "publisher": "yourname",
+  "publisher": "adeagbojosiah",
   "engines": {
     "vscode": "^1.50.0"
   },
